@@ -28,7 +28,8 @@ public class LotteryTest{
     public void test() {
         String theResult = bet();
         System.out.println(theResult);
-        String result = "07 08 12 21 23 27 12";//2019-5-21
+        //String result = "07 08 12 21 23 27 12";//2019-5-21
+        String result = "04 06 08 11 30 33 11";//2019-6-11
         System.out.println(result.length() == theResult.length());
     }
 
@@ -80,7 +81,8 @@ public class LotteryTest{
 
 
     private void semulateBet()  throws IOException{
-        String result = "07 08 12 21 23 27 12";
+        //String result = "07 08 12 21 23 27 12";
+        String result = "04 06 08 11 30 33 11";//2019-6-11
         BigDecimal sum = new BigDecimal("0");
         BigDecimal money;
         while (true) {
